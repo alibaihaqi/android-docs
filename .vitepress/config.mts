@@ -49,6 +49,13 @@ export default defineConfig({
           { text: 'Getting Started', link: '/introduction/getting-started' }
         ]
       },
+      {
+        text: 'Basic Kotlin',
+        items: [
+          { text: 'General Info', link: '/basic-kotlin/' },
+          { text: 'Variables, Comment, and Data Types', link: '/basic-kotlin/variables-comment-datatypes' }
+        ]
+      },
     ],
 
     socialLinks: [
