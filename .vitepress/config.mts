@@ -53,7 +53,14 @@ export default defineConfig({
         text: 'Basic Kotlin',
         items: [
           { text: 'General Info', link: '/basic-kotlin/' },
-          { text: 'Variables, Comment, and Data Types', link: '/basic-kotlin/variables-comment-datatypes' }
+          { text: 'Variables, Comment, and Data Types', link: '/basic-kotlin/variables-comment-datatypes' },
+          { text: 'Operators', link: '/basic-kotlin/operators' },
+        ]
+      },
+      {
+        text: 'Jetpack Compose',
+        items: [
+          { text: 'General Info', link: '/jetpack-compose/' },
         ]
       },
     ],
