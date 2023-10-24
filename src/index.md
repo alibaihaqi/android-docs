@@ -13,9 +13,10 @@ hero:
       text: Getting Started
       link: /introduction/getting-started
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: Basic Knowledge
+    details: Understand the basic
+    link: /basic-kotlin/
 #   - title: Feature B
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 #   - title: Feature C
