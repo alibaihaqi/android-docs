@@ -3,7 +3,8 @@
 For operators, Kotlin divides into 4 groups:
 - Arithmetic Operators
 - Assignment Operators
-
+- Comparison Operators
+- Logical Operators
 
 ## Arithmetic operators
 
@@ -140,3 +141,26 @@ fun main() {
   println(initNum) // 0
 }
 ```
+
+## Comparison Operators
+
+It will return the `Boolean` value
+
+| **Operator** |      **Description**     |
+|:------------:|:------------------------:|
+|     `==`     |         Equal to         |
+|     `!=`     |       Not equal to       |
+|      `>`     |       Greater than       |
+|      `<`     |         Less than        |
+|     `>=`     | Greater than or equal to |
+|     `<=`     |   Less than or equal to  |
+
+## Logical Operators
+
+It will return the `Boolean` value
+
+| **Operator** |                               **Description**                              |
+|:------------:|:--------------------------------------------------------------------------:|
+|     `&&`     |    Combine 2 logical expressions, return true if both expressions valid    |
+|    `\|\|`    | Combine 2 logical expressions, return true if one of the expressions valid |
+|      `!`     |                 Reverse value, true -> false, false -> true                |
