@@ -55,6 +55,7 @@ export default defineConfig({
           { text: 'General Info', link: '/basic-kotlin/' },
           { text: 'Variables, Comment, and Data Types', link: '/basic-kotlin/variables-comment-datatypes' },
           { text: 'Operators', link: '/basic-kotlin/operators' },
+          { text: 'Function and Lambda', link: '/basic-kotlin/function-lambda' },
         ]
       },
       {
