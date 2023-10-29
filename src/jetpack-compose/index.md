@@ -17,3 +17,7 @@ In this section, you'll fill:
     - Kotlin DSL (build.gradle.kts) (Recommended)
     - Kotlin DSL (build.gradle.kts) + Gradle Version Catalog (Experimental)
     - Groovy DSL (build.gradle)
+
+::: warning
+If you get error `The path '/Users' is not writable. Please choose a new location`, please check if the destination is existed.
+:::
