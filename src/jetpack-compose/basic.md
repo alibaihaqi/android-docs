@@ -70,3 +70,33 @@ fun GreetingPreview() {
 }
 ```
 :::
+
+For Layout, you can use 3 different elements:
+- `Container` or `Box`,
+- `Column`, and
+- `Row`
+
+Examples:
+```kotlin
+import androidx.compose.runtime.Composable
+
+@Composable
+fun Greeting(name: String, modifier: Modifier = Modifier) {
+  Column {
+    Row {
+      Text(
+        text = "Row 1",
+        modifier = modifier
+      )
+    }
+    Row {
+      Text(
+        text = "Row 2",
+        modifier = modifier
+      )
+    }
+  }
+}
+```
+
+You can modify the styling through `modifier` or other properties.
