@@ -14,11 +14,12 @@ hero:
       link: /introduction/getting-started
 
 features:
-  - title: Basic Knowledge
-    details: Understand the basic
+  - title: Basic Kotlin Knowledge
+    details: Understand the kotlin basic
     link: /basic-kotlin/
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Jetpack Compose
+    details: Develop project with Jetpack Compose
+    link: /jetpack-compose/
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
