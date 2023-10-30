@@ -62,6 +62,7 @@ export default defineConfig({
         text: 'Jetpack Compose',
         items: [
           { text: 'General Info', link: '/jetpack-compose/' },
+          { text: 'Basic Development', link: '/jetpack-compose/basic' },
         ]
       },
     ],
