@@ -56,6 +56,7 @@ export default defineConfig({
           { text: 'Variables, Comment, and Data Types', link: '/basic-kotlin/variables-comment-datatypes' },
           { text: 'Operators', link: '/basic-kotlin/operators' },
           { text: 'Function and Lambda', link: '/basic-kotlin/function-lambda' },
+          { text: 'Generic Class, Enum, and Object', link: '/basic-kotlin/generic-class-enum-object' },
         ]
       },
       {
