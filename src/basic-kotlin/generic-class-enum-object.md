@@ -22,7 +22,43 @@ fun main() {
 
 ### Generic Class
 
-TBD
+In some situations, you create different classes with similar properties but only one or two parameters have different data types.
+
+For example:
+```kt
+class ClassA(
+  val propertyA: String,
+  val samePropertyDifferentType: String,
+)
+
+class ClassB(
+  val propertyA: String,
+  val samePropertyDifferentType: Int,
+)
+
+fun main() {
+  val ca = ClassA("PropertyA", "0")
+  val cb = ClassB("PropertyA", 0)
+  println(ca.samePropertyDifferentType) // "0"
+  println(cb.samePropertyDifferentType) // 0
+}
+```
+
+The problem is the only different on property `samePropertyDifferentType` between two classes are `data types`. To fix this, we can create `generic class` where the property that.
+
+```kt
+class GenericClassC<T>(
+  val propertyA: String,
+  val samePropertyDifferentType: T,
+)
+
+fun main() {
+  val ca = GenericClassC("PropertyA", "0")
+  val cb = GenericClassC("PropertyA", 0)
+  println(ca.samePropertyDifferentType) // "0"
+  println(cb.samePropertyDifferentType) // 0
+}
+```
 
 ## Enum
 
