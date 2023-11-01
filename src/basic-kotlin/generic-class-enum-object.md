@@ -2,6 +2,26 @@
 
 ## Class
 
+To create an instance of the class, you can call it like regular function:
+
+::: info
+Kotlin does not have a `new` keyword.
+:::
+
+```kotlin
+class Person(
+  val name: String
+)
+
+fun main() {
+  val member = Person("John")
+  println(member) // Person@7291c18f
+  println(member.name) // John
+}
+```
+
+### Generic Class
+
 TBD
 
 ## Enum
