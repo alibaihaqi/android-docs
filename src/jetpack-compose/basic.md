@@ -100,3 +100,19 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 ```
 
 You can modify the styling through `modifier` or other properties.
+
+For example, you want to add padding
+```kotlin
+@Composable
+fun Greeting(name: String, modifier: Modifier = Modifier) {
+  Column(
+    modifier = modifier
+      .padding(16.dp)
+  ) {
+    Text(
+      text = "Hello Android",
+    )
+  }
+}
+```
+
