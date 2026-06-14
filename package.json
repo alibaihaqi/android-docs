@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/alibaihaqi/android-docs#readme",
   "devDependencies": {
-    "vitepress": "1.0.0-rc.23"
+    "vitepress": "1.6.4"
   }
 }
