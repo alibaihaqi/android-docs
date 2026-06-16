@@ -7,22 +7,19 @@ hero:
   tagline: Part of the Learning Docs hub.
   actions:
     - theme: brand
+      text: Start the Beginner tier
+      link: /beginner/
+    - theme: alt
       text: Introduction
       link: /introduction/
-    - theme: alt
-      text: Getting Started
-      link: /introduction/getting-started
     - theme: alt
       text: Hub
       link: https://alibaihaqi.github.io/learning-docs/
 
 features:
-  - title: Basic Kotlin Knowledge
-    details: Understand the kotlin basic
-    link: /basic-kotlin/
-  - title: Jetpack Compose
-    details: Develop project with Jetpack Compose
-    link: /jetpack-compose/
+  - title: Beginner
+    details: Kotlin essentials, Jetpack Compose basics, and a one-screen list app to ship at the end.
+    link: /beginner/
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---

@@ -31,6 +31,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Introduction', link: '/introduction/' },
+      { text: 'Beginner', link: '/beginner/' },
     ],
 
     search: {
@@ -50,20 +51,21 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Basic Kotlin',
+        text: 'Beginner',
+        collapsed: false,
         items: [
-          { text: 'General Info', link: '/basic-kotlin/' },
-          { text: 'Variables, Comment, and Data Types', link: '/basic-kotlin/variables-comment-datatypes' },
-          { text: 'Operators', link: '/basic-kotlin/operators' },
-          { text: 'Function and Lambda', link: '/basic-kotlin/function-lambda' },
-          { text: 'Generic Class, Enum, and Object', link: '/basic-kotlin/generic-class-enum-object' },
-        ]
-      },
-      {
-        text: 'Jetpack Compose',
-        items: [
-          { text: 'General Info', link: '/jetpack-compose/' },
-          { text: 'Basic Development', link: '/jetpack-compose/basic' },
+          { text: 'Overview', link: '/beginner/' },
+          { text: '01 Install Android Studio', link: '/beginner/01-install-android-studio' },
+          { text: '02 Kotlin basics: variables and types', link: '/beginner/02-kotlin-basics' },
+          { text: '03 Kotlin operators', link: '/beginner/03-operators' },
+          { text: '04 Functions and lambdas', link: '/beginner/04-functions-and-lambdas' },
+          { text: '05 Classes and data classes', link: '/beginner/05-classes' },
+          { text: '06 What Jetpack Compose is', link: '/beginner/06-what-compose-is' },
+          { text: '07 Basic composables', link: '/beginner/07-basic-composables' },
+          { text: '08 Modifiers', link: '/beginner/08-modifiers' },
+          { text: '09 State', link: '/beginner/09-state' },
+          { text: '10 LazyColumn', link: '/beginner/10-lazy-column' },
+          { text: '11 One-screen list app', link: '/beginner/11-one-screen-list-app' },
         ]
       },
     ],
