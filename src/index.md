@@ -20,8 +20,9 @@ features:
   - title: Beginner
     details: Kotlin essentials, Jetpack Compose basics, and a one-screen list app to ship at the end.
     link: /beginner/
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Intermediate
+    details: ViewModel + StateFlow, async repository, loading/error states, and Navigation Compose to a detail screen.
+    link: /intermediate/
 ---
 
 <style>

@@ -32,6 +32,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Introduction', link: '/introduction/' },
       { text: 'Beginner', link: '/beginner/' },
+      { text: 'Intermediate', link: '/intermediate/' },
     ],
 
     search: {
@@ -66,6 +67,20 @@ export default defineConfig({
           { text: '09 State', link: '/beginner/09-state' },
           { text: '10 LazyColumn', link: '/beginner/10-lazy-column' },
           { text: '11 One-screen list app', link: '/beginner/11-one-screen-list-app' },
+        ]
+      },
+      {
+        text: 'Intermediate',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/intermediate/' },
+          { text: '01 Why state', link: '/intermediate/01-why-state' },
+          { text: '02 UiState and ViewModel', link: '/intermediate/02-uistate-and-viewmodel' },
+          { text: '03 Async repository', link: '/intermediate/03-repository-async' },
+          { text: '04 Collect state in Compose', link: '/intermediate/04-collect-state' },
+          { text: '05 Loading and error UI', link: '/intermediate/05-loading-error-ui' },
+          { text: '06 Navigate to detail', link: '/intermediate/06-navigate-to-detail' },
+          { text: '07 Run and preview', link: '/intermediate/07-run-and-preview' },
         ]
       },
     ],
