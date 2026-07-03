@@ -46,7 +46,7 @@ fun BookListScreen(
 }
 ```
 
-The `when` expression is exhaustive because `UiState` is a sealed interface — the compiler rejects any missing branch.
+Because `UiState` is a sealed interface, the compiler warns on any missing branch here — add a new state and this `when` flags it until you handle it. (Assign the `when` to a value to make exhaustiveness a hard error instead of a warning.)
 
 `val s = state` captures the current value into a local variable so smart-casting works correctly inside each branch (Kotlin cannot smart-cast a `by`-delegated property directly).
 
