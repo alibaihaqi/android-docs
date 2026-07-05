@@ -83,6 +83,23 @@ export default defineConfig({
           { text: '07 Run and preview', link: '/intermediate/07-run-and-preview' },
         ]
       },
+      {
+        text: 'Advanced',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/advanced/' },
+          { text: '01 Why Room', link: '/advanced/01-why-room' },
+          { text: '02 Add Room', link: '/advanced/02-add-room' },
+          { text: '03 Dependency injection with Hilt', link: '/advanced/03-hilt-di' },
+          { text: '04 Firebase Authentication', link: '/advanced/04-firebase-auth' },
+          { text: '05 DataStore preferences', link: '/advanced/05-datastore' },
+          { text: '06 WorkManager', link: '/advanced/06-workmanager' },
+          { text: '07 Unit tests', link: '/advanced/07-unit-tests' },
+          { text: '08 UI tests with Compose Test', link: '/advanced/08-compose-ui-tests' },
+          { text: '09 Firebase Crashlytics', link: '/advanced/09-firebase-crashlytics' },
+          { text: '10 Google Play publishing', link: '/advanced/10-google-play-publishing' },
+        ]
+      },
     ],
 
     socialLinks: [

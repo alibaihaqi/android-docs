@@ -23,6 +23,9 @@ features:
   - title: Intermediate
     details: ViewModel + StateFlow, async repository, loading/error states, and Navigation Compose to a detail screen.
     link: /intermediate/
+  - title: Advanced
+    details: Production Android with Room, Hilt DI, Firebase Auth, DataStore, WorkManager, unit/UI tests, Crashlytics, and Play Store release.
+    link: /advanced/
 ---
 
 <style>

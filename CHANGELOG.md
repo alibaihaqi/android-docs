@@ -3,6 +3,11 @@
 All notable changes to the Android learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-05 — Advanced tier
+
+### Added
+- **Advanced tier** (`src/advanced/`, 10 pages + index): production Android app — Room persistence with DAO/Flow, Hilt dependency injection, Firebase Authentication (email + Google), DataStore preferences, WorkManager periodic sync, unit tests (JUnit + Turbine), Compose UI tests, Firebase Crashlytics, and Google Play publishing. Wired into the sidebar, nav, and home feature card.
+
 ## 2026-07-04 — Intermediate tier + CI
 
 ### Added
